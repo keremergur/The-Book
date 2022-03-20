@@ -19,6 +19,5 @@ package Java; //name of the above directory
             (<modifiers>) <type> <name> (<initialization>)
             all statements end with a semicolon (;)
             */
-
         }
  }

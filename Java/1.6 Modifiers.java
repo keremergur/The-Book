@@ -1,6 +1,0 @@
-package Java;
-
-class Modifiers {
-    
-    
-}

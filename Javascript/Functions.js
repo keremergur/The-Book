@@ -19,6 +19,9 @@ const pw4 = (x) => {
     return temp
 }
 
+let a = 4;
+let b = pw1(a) + pw2(a) + pw3(a) + pw4(a)
+
 //functions can also be saved into variables with "let"
 //good practice: use "const" when possible
 //helps avoid function to be overridden

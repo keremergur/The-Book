@@ -1,3 +1,5 @@
+{-# OPTIONS_GHC -Wno-incomplete-patterns #-}
+-- please ignore line above
 
 type Pair = (Int,Int)
 
@@ -16,7 +18,7 @@ moves (x,y) West n = (x, y - n)
 -- With variable attached
 data Btree a = Null | Leaf a | Node (Btree a) a (Btree a)
 
-btAppend :: Btree a -> Int -> Btree a
+btAppend :: Ord a => Btree a -> a -> Btree a
 btAppend Null v = Leaf v 
 btAppend (Leaf a) v
     | v <= a = Node (Leaf v) a Null

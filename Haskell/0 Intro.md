@@ -1,7 +1,9 @@
 
 # Haskell
 
-## 1 - Functions
+## Topics
+
+### 1 - Functions
 
 Basic datatypes
 Syntax and basic functions
@@ -9,13 +11,13 @@ Pattern matching
 Currying
 Recursion
 
-## 2 - Types
+### 2 - Types
 
 Type
 Data
 Newtype
 
-## 3 - IO
+### 3 - IO
 
 main
 output

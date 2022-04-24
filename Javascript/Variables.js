@@ -2,4 +2,8 @@
 let muteable = 4
 
 const immutable = 5
-//array - address
+
+
+let array = [1,2,3]
+
+let pair = (1,2)

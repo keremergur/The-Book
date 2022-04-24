@@ -3,7 +3,7 @@ let a = 0
 let b = []
 
 while (a < 10){
-    b + a
+    b.push(a)
 }
 //array of 0 to 9
 

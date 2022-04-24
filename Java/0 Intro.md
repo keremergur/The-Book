@@ -1,23 +1,25 @@
 
 # Java
 
-## Types and syntax
+## Topics
 
-## Conditionals and loops
+### Types and syntax
 
-## Functions, returns and imports
+### Conditionals and loops
 
-## Objects, statics and imports
+### Functions, returns and imports
 
-## Encapsulation, access
+### Objects, statics and imports
 
-## Interfaces, subclasses and polymorphism
+### Encapsulation, access
 
-## Enums and records
+### Interfaces, subclasses and polymorphism
 
-## File IO
+### Enums and records
 
-## Multithreading
+### File IO
+
+### Multithreading
 
 
 

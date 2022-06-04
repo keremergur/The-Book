@@ -1,4 +1,6 @@
 
+//manually created instead of class
+
 let objSingle = 
 {
     name_f: "jane",

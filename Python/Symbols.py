@@ -8,6 +8,8 @@ x -= 1
 x *= 1
 x /= 1
 
+# no increment (++)
+
 x == 20 # equals
 
 x != 30 # not equals
@@ -26,4 +28,6 @@ d = "John Doe \ Jane Doe" # newline
 e = "Say \"Hi!\"." # escape sequence
 f = 'single' # single quotes ok
 
-g = [1,2,3,4]
+g = [1,2,3,4] # array
+h = {1,2,3,4} # set
+i = (1,2,3,4) # tuple

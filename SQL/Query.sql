@@ -9,12 +9,12 @@ FROM Data;
 -- display
 
 SELECT DISTINCT 
-col3 AS "Title"
-FROM Data
-GROUP BY col4
-HAVING col2 > 3
-ORDER BY col2
-LIMIT 20;
+col3 AS "Title"     -- AS: alias
+FROM Data           -- FROM: queried
+GROUP BY col4       -- GROUP BY: section results
+HAVING col2 > 3     -- HAVING: filter results
+ORDER BY col2       -- ORDER BY: order results
+LIMIT 20;           -- LIMIT: number of results
 
 -- ORDER BY 2, col2,
 --     col2 ASC, col2 DESC

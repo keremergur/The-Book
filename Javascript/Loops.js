@@ -11,3 +11,7 @@ for(i = 0; i < 10; i++){
     b[i] += 10 - i
 }
 // [10, 10, 10, 10...]
+
+for(let num in b){
+    console.log(num);
+}

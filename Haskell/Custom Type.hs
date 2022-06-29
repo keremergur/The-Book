@@ -16,6 +16,7 @@ moves (x,y) East n = (x, y + n)
 moves (x,y) West n = (x, y - n)
 
 -- With variable attached
+    -- > it will be used inside
 data Btree a = Null | Leaf a | Node (Btree a) a (Btree a)
 
 btAppend :: Ord a => Btree a -> a -> Btree a

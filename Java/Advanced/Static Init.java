@@ -1,0 +1,5 @@
+package Advanced;
+
+class Init {
+    
+}

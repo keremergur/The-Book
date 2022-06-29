@@ -13,9 +13,11 @@ class Student {
 class Attributes {
     public static void main(String[] args) {
 
+        // static field
         Student.number_of_students = 10;
         System.out.println(Student.number_of_students);     //-> 10
         
+        //instance field
         Student me = new Student();
         me.name = "Kerem";
         System.out.println(me.name);                        //-> "Kerem"

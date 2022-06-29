@@ -3,18 +3,31 @@
 int main() {
 
     int a = 1234;
-    int* c = &a;
+    int* p = &a;
+    int** pp = &p;
 
+    // a: Integer
     std::cout <<  a << "\n";  // value
     std::cout << &a << "\n";  // address
-    std::cout << *c << "\n";  // value
-    std::cout <<  c << "\n";  // address
-    std::cout << &c << "\n";  // reference
+
+	// p: Pointer to Integer
+    std::cout << *p << "\n";  // value
+    std::cout <<  p << "\n";  // address
+    std::cout << &p << "\n";  // reference
+
+	// pp: Pointer to Pointer to Integer
+    std::cout << **pp << "\n";  // value
+    std::cout <<  *pp << "\n";  // address
+    std::cout <<   pp << "\n";  // reference
+    std::cout <<  &pp << "\n";  // you get it
 
     /*
 
-    &c ->  c -> *c
+    &p ->  p -> *p
           &a ->  a
+                 ^ int
+           ^ int*
+     ^ int**
 
     int *p: declare pointer
     *p: dereference pointer

@@ -3,22 +3,51 @@
 
 ## Topics
 
-### 1 - Functions
+[add: infixr]
 
-Basic datatypes
-Syntax and basic functions
-Pattern matching
-Currying
-Recursion
+### Functions
 
-### 2 - Types
+- Basic datatypes
+- Syntax and basics
+- Pattern matching
+- Currying
+- Recursion
+- Accumulator
+- Tail recursion
+- Local definition
+- Constraints
+- Composition
+- Pull From
+- Higher order
 
-Type
-Data
-Newtype
+### Types
 
-### 3 - IO
+- Type
+- Data
+- Newtype
+- Constructor
+- Multi field
+- Wrapper
 
-main
-output
-input
+### Classes
+
+- Class
+- Instance
+- Class args
+- Extention
+- Monoid
+- Functor
+
+### IO
+
+- main
+- output
+- input
+
+### Trees
+
+- Time complexity
+- Search
+- Syntax tree
+
+### Exceptions

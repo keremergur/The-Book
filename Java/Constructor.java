@@ -4,6 +4,10 @@ class Car {
     int year;
     boolean unused;
 
+    //no arg constructor
+    Car(){}
+
+    //3 args constructor
     Car(String maker, int year, boolean unused){
         this.maker = maker;
         this.year = year;
@@ -13,6 +17,7 @@ class Car {
 
 class Constructor {
 
+    Car focus = new Car();
     Car passat = new Car("VW", 2018, true);
 
 }

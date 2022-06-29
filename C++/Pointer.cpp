@@ -10,12 +10,12 @@ int main() {
     std::cout <<  a << "\n";  // value
     std::cout << &a << "\n";  // address
 
-	// p: Pointer to Integer
+    // p: Pointer to Integer
     std::cout << *p << "\n";  // value
     std::cout <<  p << "\n";  // address
     std::cout << &p << "\n";  // reference
 
-	// pp: Pointer to Pointer to Integer
+    // pp: Pointer to Pointer (to Integer)
     std::cout << **pp << "\n";  // value
     std::cout <<  *pp << "\n";  // address
     std::cout <<   pp << "\n";  // reference

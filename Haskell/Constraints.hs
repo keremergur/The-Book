@@ -1,3 +1,4 @@
 
 sum :: Num a => a -> a -> a
--- type a limited to numbers
+sum x y = x + y
+-- Type a limited to numbers

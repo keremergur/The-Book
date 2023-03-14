@@ -15,12 +15,3 @@ GROUP BY col4       -- GROUP BY: section results
 HAVING col2 > 3     -- HAVING: filter results
 ORDER BY col2       -- ORDER BY: order results
 LIMIT 20;           -- LIMIT: number of results
-
--- ORDER BY 2, col2,
---     col2 ASC, col2 DESC
-
-
--- order of keywords
-GROUP BY
-HAVING
-ORDER BY / LIMIT

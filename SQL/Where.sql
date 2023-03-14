@@ -2,30 +2,27 @@
 -- null
 SELECT *
 FROM Data
+
 WHERE col4 IS NOT NULL;
 -- or IS NULL
 
 -- comparison
-SELECT *
-FROM Data
 WHERE col2 > 5;
 -- = != > < >= <=
+-- <> is interchangeable with !=
 
 -- wildcard
-SELECT *
-FROM Data
-WHERE col2 LIKE "Se_en%"
+WHERE col2 LIKE "Se_en%";
 -- _: placeholder  %: continued
 -- valid: Seven, Selen, Serenity
 
 -- between
-SELECT *
-FROM Data
 WHERE col3 BETWEEN "A" AND "D";
 -- lexicographic: Atlas, Boutique
+-- inclusion depends on database
 
--- combinations
-SELECT *
-FROM Data
-WHERE col2 > 4
-    OR col4 = TRUE;
+NOT (col2 > 5)
+NOT LIKE "An%"
+NOT BETWEEN 1 AND 20
+
+-- see: Quantifier.sql

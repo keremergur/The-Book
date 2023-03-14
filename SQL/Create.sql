@@ -1,13 +1,13 @@
 
 CREATE TABLE Student_Simple {
     id INTEGER,
-    name TEXT,
+    s_name TEXT,
     age INTEGER
 }
 
 CREATE TABLE Student {
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT DEFAULT "John Doe",
+    s_name TEXT DEFAULT "John Doe",
     age INTEGER NOT NULL
 }
 

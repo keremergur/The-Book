@@ -18,3 +18,9 @@ let fileVar8 = 77
 
 export {fileVar7 as fV7, fileVar8 as fV8}
 
+
+export default x
+// any import by non-existing name will call this
+
+// export {y as default, z = 4}
+

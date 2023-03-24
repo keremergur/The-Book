@@ -1,0 +1,16 @@
+
+/* 
+    Tag: h1, div, p
+    Class: c1
+*/
+
+h1.c1 {
+    color: beige;
+}
+/* "h1" that use "c1" */
+
+div.c1 p {
+    color: gray;
+}
+/* "p" within "div" that use "c1" */
+

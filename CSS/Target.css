@@ -1,0 +1,29 @@
+
+/* 
+    Tag: h1, h2, a
+    Class: c1, c2
+    Id: i1
+*/
+
+
+* {
+    /* Universal */
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+.c1 {
+    color: blue;
+}
+
+#i1 {
+    color: yellow;
+}
+
+h2, a, .c2 {
+    color: coral;
+}
+/* multiple selector */

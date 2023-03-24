@@ -1,0 +1,25 @@
+
+[title] {
+    color: orange;
+}
+/* tags that have "title" */
+
+[title="CSS"] {
+    color: cyan;
+}
+/* tags that have "title" as "CSS" */
+
+[title~="Advanced"] {
+    color: green;
+}
+/* tags that have "title" include "Advanced" */
+
+a[target] {
+    color: purple;
+}
+/* "a" that have "target" */
+
+a[target="_blank"] {
+    color: violet;
+}
+/* "a" that have "target" as "_blank" */

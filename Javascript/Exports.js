@@ -11,6 +11,10 @@ export let fileVar5 = 1, fileVar6 = 2
 export {f}
 export function g(){}
 export class C {}
+export let obj = {
+    'a': 44,
+    'b': 55
+}
 
 
 let fileVar7 = 66

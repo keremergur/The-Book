@@ -40,4 +40,7 @@ class Sync {
             }
         }
     }
+
+    // lock as little as possible
+    // variable < method < object < class
 }

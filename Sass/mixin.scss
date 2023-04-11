@@ -1,0 +1,28 @@
+
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+    background: gray;
+}
+
+.card {
+    @include flex-col;
+}
+
+@mixin mybutton($color, $bg) {
+    display: flex;
+    color: $color;
+    background: $bg;
+}
+
+.btn-yellow {
+    @include mybutton(black, yellow);
+}
+
+@mixin themes($theme) {
+    @if $theme == 'light' {
+        background-color: $light-bg;
+    } @else {
+        background-color: $dark-bg;
+    }
+}

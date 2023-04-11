@@ -1,0 +1,14 @@
+
+.button {
+    a {     // .button a {}
+        font-weight: bold;
+    }
+    
+    .success {      // .button.success {}
+        color: green;
+    }
+
+    &:hover {       // .button:hover {}
+
+    }
+}
